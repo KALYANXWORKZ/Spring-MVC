@@ -4,10 +4,14 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 
 public class FrontControllerConfiguartion extends AbstractAnnotationConfigDispatcherServletInitializer{
 
+	public FrontControllerConfiguartion() {
+		System.out.println("created"+this.getClass().getSimpleName());
+	}
+	
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
 		// TODO Auto-generated method stub
-		return null;
+		return new Class[] {SpringConfiguration.class};
 	}
 
 	@Override
