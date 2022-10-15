@@ -1,8 +1,19 @@
 package com.xworkz.milkshop.dto;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import org.hibernate.annotations.GenericGenerator;
+
+@Entity
+@Table(name = "milk")
 public class MilkShopDTO {
 
-	
+	@Id
+	@GenericGenerator(name="haalu", strategy = "increment")
+    @GeneratedValue(generator = "haalu")
 	private Integer id;
 	private String brandName;
 	private String shopName;
