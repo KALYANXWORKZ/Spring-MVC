@@ -31,9 +31,10 @@ public class MilkShopController {
 		
 		else {
 			System.out.println("Data is not valid and not saved");
+			return "index";
 		}
 		
-		return "index";
+		
 	}
 
 }

@@ -4,10 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Success Page</title>
+<title>Insert title here</title>
 </head>
 <body>
-
-<h1>Milk Shop Deatails are Saved Successfully aglebeku ---)</h1>
+<h1>Data Saved Successfully:)</h1>
 </body>
 </html>
