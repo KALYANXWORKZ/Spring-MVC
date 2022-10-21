@@ -22,7 +22,7 @@ import lombok.ToString;
 @ToString
 
 @Entity
-@Table(name = "criminals_info")
+@Table(name = "criminal_info")
 
 @NamedQueries({@NamedQuery(name = "findAll", query = "select info from CriminalsDTO info")})
 public class CriminalsDTO {

@@ -46,6 +46,7 @@ public class CriminalsController {
 			if(dtos !=null && !dtos.isEmpty()) {
 				System.out.println("dtos are found"+dtos.size());
 				model.addAttribute("CriminalDetails", dtos);
+				System.out.println("Calling Model");
 				model.addAttribute("size", "Total Criminals found: "+dtos.size());
 			}
 			else {

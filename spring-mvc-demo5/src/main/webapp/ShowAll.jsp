@@ -33,7 +33,7 @@
 
 			</tr>
 
-			<c:forEach items="${CriminalsDetails}" var="dto">
+			<c:forEach items="${CriminalDetails}" var="dto">
 				<tr>
 					<th>${dto.id}</th>
 					<th>${dto.name}</th>
